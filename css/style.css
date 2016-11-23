@@ -1,0 +1,2143 @@
+body {
+    color: #565656 !important;
+    background-color: #EBF0F5;
+}
+.bold {
+    font-weight: bold;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+i {
+    font-style: normal;
+}
+a {
+    color: #565656;
+    text-decoration: none;
+}
+a:active,a:focus {
+    outline: none !important;
+    color: inherit;
+    text-decoration:none;
+}
+p {
+    text-indent: 2em;
+}
+li {
+    list-style: none;
+}
+select,input,textarea {
+    outline: none;
+    padding:4px;
+    border-radius:4px;
+    border:1px solid #ccc;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+td,th{
+    font-size: 12px !important;
+    vertical-align: middle !important;
+    text-align: center;
+}
+table.table-striped tbody tr:nth-child(odd) td {
+   //background-color: #EDF4FE;
+}
+.table-striped tbody tr:nth-child(even) td {
+    //background-color: #fff;
+ }
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border-bottom: none;
+}
+table.table-striped tbody tr:nth-child(odd) td {
+    //background-color: red;
+}
+.table-striped tbody tr:nth-child(even) td {
+    //background-color: blue;
+ }
+.replyadmin, .iconuser {
+    display: inline-block;
+    width: 36px;
+    height: 31px;
+    background-image: url("../images/icons.png");
+    position: relative;
+    top: 11px;
+}
+.replyadmin {
+    background-position: 0 -137px;
+}
+.iconuser {
+    background-position: 32px -293px;
+    top: 10px;
+    height: 35px;
+}
+.complain_modal, .firstcomplaintable {
+    overflow: hidden;
+}
+.firstcomplaintable, .againcomplaint {
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ccc;
+}
+.againcomplaint {
+    padding-top: 10px;
+}
+#user_time, .con_againdate {
+    margin-top: 5px;
+    color: #b3afaf;
+    font-size: 12px;
+}
+.user_ask {
+    width: 100%;
+}
+#ts_info_content, .askcontent, .admin_answer .requrycontent{
+    max-width: 340px;
+    display: inline-block;
+    word-wrap: break-word;
+    border-radius: 4px;
+    background-color: #3FCF2F;
+    padding: 4px;
+    color: #FDFDFD;
+    vertical-align: middle;
+}
+.admin_answer .requrycontent {
+    text-align: right;
+    background-color: #13ACEF;
+}
+.admin_answer li {
+    text-align: right;
+}
+.admin_answer .pauseanswer {
+    top: 0;
+    color: #b3afaf;
+}
+.replaycontentul {
+    padding: 0;
+}
+.replaycontentul li {
+    margin-bottom: 10px;
+}
+.modal-body {
+    overflow-X: auto;
+}
+.clearfix {
+    *zoom: 1;}/*IE/7/6*/
+
+.header-left {
+    padding: 5px 0;
+}
+.header-left img {
+    width: 66px;
+    margin-top: 2px;
+}
+
+.header-left h3 {
+    line-height: 0.5;
+    margin-left: 5px;
+    font-size: 22px;
+}
+.header-right li a {
+    padding: 20px 15px;
+}
+.dropdown-show-color {
+    background-color:#eee;
+}
+.dropdown-win {
+    padding: 15px;
+    line-height: 2.5;
+}
+.dropdown-win b {
+    float: left;
+    width: 105px;
+    text-align: right;
+}
+.dropdown-win input {
+    width: 300px;
+}
+.dropdown-win .feedback-count {
+    width: 300px;
+    display:inline-block;
+    margin-left: 15px;
+}
+.dropdown-win li {
+    padding: 5px 0;
+    overflow: hidden;
+    line-height: 3.2;
+}
+.dropdown-win .login {
+    width: 74%;
+    float: right;
+    margin-right: 30px;
+    margin-top: 12px;
+}
+.dropdown-win input {
+    font-size: 12px;
+}
+.dropdown-win span {
+    margin: 10px 10px 0 0 ;
+}
+.changenum {
+    width: 70px;
+    display: inline-block;
+    margin-left: 4px;
+    background-color: #6E9924;
+    border: none;
+    color: #F9F3F3;
+    height: 30px;
+    line-height: 2.6;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 4px;
+}
+.changanother {
+    font-size: 12px;
+    padding: 0 5px !important;
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+.byd-header {
+    height: 58px;
+}
+.byd-header .navbar-collapse {
+    height: 55px;
+    width: 50% !important;
+    
+}
+.byd-header .navbar-right {
+    height: 60px;
+    line-height: 60px;
+}
+#myCarousel {
+    margin-top: -20px;
+    top: -3px;
+}
+.banner-slide .carousel-inner .item img {
+    width: 1770px;
+    max-width: inherit;
+}
+.carousel-indicators li {
+    background-color: #fff;
+    border:1px solid #F0F0EA;
+}
+.carousel-indicators .active {
+    background-color: #3353F5;
+    width: 20px;
+    height: 20px;
+    border:none;
+}
+.carousel-indicators li {
+    width: 18px;
+    height: 18px;
+}
+.content {
+    margin-bottom: 20px;
+}
+.belogin-content {
+    padding-top: 20px;
+}
+.content-ul li {
+    line-height: 2.2;
+    border-bottom: 1px dashed #ccc;
+    padding: 5px 10px;
+    width: 93%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content-ul a {
+    font-size: 14px;
+    float: left;
+}
+.content-detail {
+    position: relative;
+}
+.content-detail .posi-a {
+    position: absolute;
+    top: 7px;
+    right: 18px;
+}
+.more {
+    font-size: 12px;
+    line-height: 1;
+    margin-top: -4px;
+}
+.more i {
+    padding: 5px;
+}
+.footer {
+    line-height: 2;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #E0DFDF;
+    border-right: none;
+    border-left: none;
+    font-size: 14px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer ul {
+    padding-left: 18px;
+}
+.division {
+    margin-left: -20px;
+}
+.division img {
+    width: 110px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.chatimg,.nativelink {
+    position: relative;
+    padding-top: 27px;
+}
+.chatimg ul {
+    display: inline-block;
+}
+.chatimg img {
+    width: 120px;
+    margin-left: 25px;
+    margin-top: -60px;
+}
+.text-complaint {
+    display: block;
+    font-size: 12px;
+    width: 82%;
+    margin: 0 0 12px 10px;
+    color: #DB260E;
+}
+#complaintForm .compaintmodal2 {
+    margin-left: -379px !important;
+}
+.compaintmodal2 .Complaint-table td {
+    padding: 5px;
+}
+
+.compaintmodal2 .Complaint-table .firsttd {
+    text-align: right;
+    width: 162px;
+}
+
+#complaintForm .compaintmodal2 .purchas-footer {
+    padding: 15px;
+}
+#complaintForm .compaintmodal2 input[type='radio'] {
+    vertical-align: top;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+#complaintForm .compaintmodal2 select {
+    margin-left: -4px;
+}
+.agree {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.agree input[type='checkbox'] {
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-top: -1px;
+}
+.agree-tip {
+    color: #AE4128;
+    margin-top: 5px;
+}
+.purchas-footer {
+    text-align: center;
+    padding: 15px;
+}
+.showfeedbackmodal .purchas-footer {
+    padding: 0;
+}
+/*modal*/
+.bottomnews {
+    width: 335px;
+    height: 270px;
+    position: fixed;
+    bottom: -237px;
+    right: 0;
+    z-index: 4;
+}
+.bottomnews .modal-header {
+    padding: 10px;
+}
+.modal table th {
+    border-bottom: none !important;
+}
+.pubannou-header {
+    padding: 5px 10px;
+}
+.pubannou-body {
+    padding: 10px;
+}
+.provide-modal h3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.provide-modal .modal-dialog {
+    width: 100%;
+}
+.provide-modal .modal-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+.readingmodal {
+    margin-left: -500px !important;
+}
+#Supplier-help {
+    margin-left: -506px !important;
+}
+.readingmodal h3 {
+    display: block;
+}
+.readingmodal .modal-header {
+    text-align: center;
+}
+#Reply_detail_option .modal-header {
+    text-align: left;
+}
+#Reply_detail_option h3 {
+    display: inline-block;
+}
+#Reply_detail_option .requrycontent {
+    position: relative;
+    top: 5px;
+}
+#Reply_detail .replaycontentul {
+    position: relative;
+    top: -15px;
+}
+.requrycontent p {
+    text-align: left;
+    line-height: 1.5 !important;
+    margin-bottom: 0px;
+    padding: 1px 0;
+    text-indent: 0;
+}
+.pauseanswer {
+    position: relative;
+    top: 20px;
+    color: #b3afaf;
+}
+.readingmodal .hs {
+    text-align: center;
+}
+.readingmodal .content-detail {
+    max-height: 540px;
+    overflow-y: auto;
+    padding: 20px;
+}
+#Purchasing .content-detail, #Supplier-help .content-detail, #announcement .content-detail{
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    -khtml-user-select: none; 
+    user-select: none; 
+}
+.readingmodal .content-detail p {
+    line-height: 2;
+}
+.purchas-info tbody {
+    font-size: 12px;
+}
+.purchas-title,.closeingdate {
+    font-weight: bold;
+    text-align: center;
+}
+.purchas-title {
+    font-size: 16px;
+}
+.closeingdate {
+    margin: 12px auto;
+}
+#SignUp {
+    margin-top: 20px;
+    margin-left: -6px;
+}
+.purchas-info .table, #SignUp table {
+    margin-bottom: 10px;
+    width: 978px;
+    float: left;
+    margin-right: -1px;
+}
+#SignUp table td input[type='text'] {
+    width: 278px;
+}
+.purchas-info .table tr .first-child,#Purchase tr .first-child {
+    font-weight: bold;
+    color: #547E8B;
+}
+.purchas-info .table tr .first-child {
+    text-align: right;
+}
+#Purchase tr td:first-child {
+    width: 15%;
+}
+.login-modal .modal-dialog {
+    width: 524px;
+    height: 312px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -220px;
+    margin-left: -262px;
+}
+.login-modal .close {
+    margin-top: -9px;
+}
+.login-modal .modal-content {
+    width: 522px;
+    padding-bottom: 10px;
+}
+.login-modal .modal-body {
+    padding-bottom: 0;
+}
+.login-modal-footer {
+    text-align: center;
+    margin: 0 108px;
+    width: 340px;
+    border-top: none;
+    padding: 12px;
+    margin-top: -13px;
+}
+.login-modal-footer input[type='submit'] {
+    width: 60%;
+    border: 1px solid;
+}
+#myLoginmodal .modal-body {
+    overflow: hidden;
+}
+#common_confirm_modal .modal-dialog {
+    width: 524px;
+    height: 312px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -220px;
+    margin-left: -262px;
+}
+#common_confirm_modal .close {
+    margin-top: -9px;
+}
+#common_confirm_modal .modal-content {
+    width: 522px;
+    padding-bottom: 10px;
+}
+#common_confirm_modal .modal-body {
+    padding-bottom: 0;
+    font-size : 13px;
+}
+#common_confirm_modal modal-footer {
+    text-align: center;
+    margin: 0 108px;
+    width: 340px;
+    border-top: none;
+    padding: 12px;
+    margin-top: -13px;
+}
+#delete_modal .modal-dialog ,#delete_message_modal .modal-dialog{
+    position: fixed;
+    top: 25%;
+    left: 35%;
+}
+#delete_modal .modal-body , #delete_message_modal .modal-body{
+    //color: #f0f0f0;
+    font-size: 13px;
+}
+#delete_modal .modal-body p , #delete_message_modal .modal-body p {
+    text-align: center;
+    text-indent: 0;
+    margin: 8px auto;
+}
+.forgotpassword {
+    font-size: 12px;
+    margin-left: 15px;  
+}
+.Complaint-modal {
+    margin-left: -500px !important;
+}
+.Complaint-modal .modal-content {
+    width: 800px;
+}
+#Reply_detail_option .modal-content {
+    width: 860px;
+}
+#Reply_detail_option .replyadmin {
+    top: 13px;
+}
+#Reply_detail_option p {
+    background-color: #13ACEF;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fdfdfd;
+}
+.Complaint-modal table {
+    width: 100%;
+}
+.Complaint-modal .modal-body {
+    min-height: 430px !important;
+}
+.Complaint-modal .purchas-footer {
+    padding: 0;
+}
+.Complaint-table {
+    width: 100%;
+}
+.Complaint-table .first-child {
+    text-align: right !important;
+}
+.singup-table td {
+    width: inherit;
+}
+.gonggaodetail .modal-content {
+    width: 990px;
+}
+.gonggaodetail .purchas-footer {
+    padding: 15px;
+}
+.Complaint-table td textarea,.Complaint-table td input, .Complaint-table td select {
+    border: none;
+    background-color: inherit;
+}
+.Complaint-table td input[type='text'],.Complaint-table td textarea {
+    width: 600px;
+}
+.Complaint-table td select {
+    cursor: pointer;
+}
+.Complaint-table td input[type='file'] {
+    display: inline-block;
+}
+.Complaint-table td textarea {
+    max-width: 600px;
+}
+.singup-modal {
+    left: -8px;
+}
+.singup-modal h4 {
+    margin: 10px auto;
+    text-align: center;
+}
+#announcement .singup-modal h4 {
+    margin: 10px 0;
+}
+.modalbody-title {
+    font-size: 12px;
+    text-align: center;
+}
+.modalbody-content {
+    padding: 30px;
+}
+.last-child-td {
+    text-align: left !important;
+}
+.last-child-td label {
+    margin-bottom: 3px;
+}
+.singup-table tr td {
+    padding: 8px;
+}
+.singup-table .lefttd {
+    padding-left: 10px;
+    text-align: left;
+}
+.singup-table .lefttd span {
+    margin-left: 10px;
+}
+.addfiletable {
+    width: 100% !important;
+    text-align: center;
+    margin-top: 10px;
+}
+.addfiletable input[type='file'] {
+    border: none;
+    padding-left: 54px;
+    position: relative;
+    top: -5px;
+}
+#Reply_detail {
+    top: 235px;
+}
+#Reply_detail table {
+    margin-bottom: 10px;
+}
+#Reply_detail textarea {
+    font-size: 12px;
+    display: block;
+    min-width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#Reply_detail td {
+    padding: 10px;
+    text-align: left;
+}
+#Reply_detail td:first-child {
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+}
+#Reply_detail .modal-content {
+    width: 1000px;
+    left: -8px;
+    padding-bottom: 40px;
+}
+#Reply_detail .purchas-footer button[data-dismiss='modal'] {
+    position: relative;
+    top: 30px;
+}
+#Reply_detail .content-detail {
+    max-height: 420px;
+}
+#Reply .queryul li {
+    float: left;
+}
+.replay_table, .addquerytable {
+    margin-top: 10px;
+}
+.showmodal {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -507px;
+    z-index: 1031;
+    display: none;
+}
+.complaintdetails {
+    margin-left: -384px !important;
+}
+.showsuccessmodalcode {
+    z-index: 1032;
+    display: none;
+    position: fixed;
+    top: 18%;
+    left: 30%;
+}
+.daodexinwei {
+    margin-left: -500px !important;
+}
+.showmodal .modal-body {
+    min-height: 326px;
+}
+.showloginmodal .modal-body,.showpolicymodal .modal-body,.showhelpmodalpa .modal-body,.showsystemmodal .modal-body {
+    min-height: inherit;
+}
+#Purchasing {
+    margin-left: -507px !important;
+}
+.mask {
+    width: 100%;
+    height: 300%;
+    background-color: #1B1C1D;
+    opacity: .5;
+    filter:alpha(opacity=50); /* IE */ 
+    position: absolute;
+    top: 0;
+    z-index: 1030;
+}
+.removedsure, .getcode {
+    padding: 16px;
+    width: 270px;
+    height: 100px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    margin-left: -135px;
+    background-color: #fff;
+    z-index: 1031;
+    border-radius: 4px;
+    text-align: center;
+}
+.removedsure .surenobtn {
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.getcode {
+    width: 320px;
+    height: 80px;
+    margin-left: -192px;
+}
+.getcode span {
+    display: block;
+    margin-bottom: 15px;
+}
+.getcode a {
+    color: #337ab7;
+}
+.files {
+    padding-left: 28px;
+}
+.complaindetail .files {
+    padding-left: 0;
+}
+.files a {
+    font-size: 12px;
+    color: #337ab7;
+    margin-right: 20px;
+}
+.complain_modal {
+    font-size: 13px;
+}
+/*登陆后界面样式*/
+.gobackhome {
+    margin-top: 15px;
+}
+.loginedheader {
+    padding: 0 15px;
+}
+.logined-header-right {
+    margin-left: -54px;
+}
+.logined-header-right,.logined-nav {
+    line-height: 60px;
+}
+.logined-nav {
+    text-align: center;
+}
+.logined-nav-header,.logined-nav,.logined-header-right {
+    position: relative;
+    top: 5px;
+}
+.off-icon {
+    margin-right: 0px !important;
+    margin-left: 5px;
+}
+.welcome span, .welcome a {
+    margin-right: 5px;
+    font-size: 12px !important;
+}
+.loginedheader a {
+    color: #6B6868;
+}
+.loginedheader li {
+    display: inline-block;
+}
+.loginedheader .welcome ul {
+    display: none;
+    position: absolute;
+    top: 35px;
+    background-color: #fff;
+    z-index: 2;
+    padding-left: 0;
+}
+.loginedheader .help:hover {
+    background-color: #fff;
+}
+.loginedheader .help:hover > ul {
+    display: block;
+}
+.loginedheader .welcome ul li a {
+    padding-left: 4px;
+}
+.login-pa-li {
+    width: 80px;
+    display: inline-block;
+    position: relative;
+    padding-top: 1px; 
+}
+.login-pa-li:hover {
+    background-color: #fff;
+    border: 1px solid #E5DEDE;
+    border-bottom: none;
+    padding-top: 0;
+}
+.login-pa-li:hover > ul {
+    display: block;
+}
+
+.login-pa-li:hover > .coverspan {
+    display: block;
+}
+.login-ch-ul {
+    position: absolute;
+    top: 60px;
+    left: -1px;
+    z-index: 100;
+    background-color: #fff;
+    border-top: none;
+    width: 110px;
+    padding: 0;
+    line-height: 3;
+    display: none;
+}
+.login-ch-ul li {
+    margin-left: -1px;
+}
+.login-ch-ul li:hover {
+    background-color: #A6E7FF;
+}
+.login-ch-ul a {
+    text-decoration: none;
+}
+.logined-nav li {
+    cursor: pointer;
+    width: 110px;
+    text-align: center;
+    font-size: 14px;
+}
+.help {
+    position: relative;
+    cursor: pointer;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 3;
+}
+.welcome {
+    margin-right: -85px;
+}
+.todo {
+    background: -webkit-linear-gradient(left, #9ED8F5 , #E1F9E2, #9ED8F5); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #9ED8F5 , #E1F9E2 , #9ED8F5); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #9ED8F5 , #E1F9E2 , #9ED8F5); /* Firefox 3.6 - 15 */
+    background: linear-gradient(right, #9ED8F5 , #E1F9E2 , #9ED8F5); /* 标准的语法 */
+    padding: 10px 0 0 32px;
+    margin: -20px 0 45px 0;    
+}
+.todo-detail {
+    padding-left: 0px;
+}
+.todo-detail .panel-body {
+    padding: 5px 15px;
+}  
+.panel-title {
+    font-size: inherit;
+    color: #777;
+}
+.logined-content .content-detail h3 {
+    padding-left: 10px;
+} 
+.logined-content .content-ul li {
+    padding: 5px 0px;
+}
+.logined-content .posi-a {
+    right: 45px;
+}
+.logined-content .panel {
+    border-color: #EFEFEF;
+}
+.logined-content .panel-heading {
+    background-color: #F9F9F9;
+    border-color: #EFEFEF;
+}
+.todo-ul {
+    padding: 0;
+    line-height: 2;
+}
+.todo-ul li {
+    border-bottom: 1px dashed #ccc;
+    padding: 2px 6px;
+    width: 100%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.todo-ul a {
+    font-size: 12px;
+}
+.todo-posi-a {
+    margin-right: -10px;
+}
+.login-content {
+    padding: 0 0 40px 25px;
+}
+.login-footer {
+    padding: 0 0 20px 45px;
+}
+.todo .row,.login-content .row,.login-footer .row {
+    margin-right: 0;
+}
+#announcement td {
+    text-align: left;
+}
+.longtd {
+    line-height: 10 !important;
+}
+.longtd .btn {
+    border: 1px solid #ccc;
+    padding: 4px 12px;
+}
+/*Order inquiry 页面样式*/
+.res-left {
+    z-index: 3;
+}
+.res-right {
+    padding: 0 5px;
+    margin-left: 0;
+    z-index: 2;
+}
+.position {
+    margin-top: -20px;
+    background-color: #DFEDF7;
+}
+.nowposition {
+    position: relative;
+    top: 1px;
+    margin-right: 2px;
+    font-size: 19px;
+    color: #545757;
+}
+.shortinput {
+    margin-right: 10px;
+    width: 150px;
+    text-align: right;
+}
+.shortinput input,.shorterinput input {
+    width: 80px;
+}
+.shorterinput {
+    width: 280px;
+}
+.srm-btns {
+    line-height: 1;
+    margin-right: 5px;
+}
+.srm-btns span,.resultconfig span {
+    margin-right: 5px;
+}
+.resultconfig button {
+    padding: 3px 5px;
+}
+.savemodify {
+    display: none;
+    margin-left: 8px;
+    position: relative;
+    top: 3px;
+}
+.pagers .pagination {
+    margin: 0;
+    vertical-align: middle;
+}
+.pagers-details input {
+    width: 30px;
+    text-align: center;
+    padding: 1px;
+}
+.pagers-details select {
+    padding: 2px 4px;
+}
+.pagers-ul {
+    display: inline-block;
+    margin-left: -5px;
+    margin-top: 0;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.pagers-ul a {
+    padding: 2px 6px !important;
+    font-size: 12px;
+    border-radius: 4px !important;
+    color: #282525;
+}
+.pagers-ul a:hover {
+    color: inherit;
+}
+.each-page {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.numinput input[type='text'] {
+    padding: 0 !important;
+    border: none;
+    width: 22px !important;
+    text-align: center;
+}
+.numinput a:hover {
+    background-color: #fff !important;
+}
+.condition-filter {
+    margin-top: 5px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.res-left,.res-right {
+    position:relative;
+}
+.res-right label {
+    max-width: inherit;
+    vertical-align: bottom;
+}
+.res-breadcrumb {
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.res-breadcrumb,.btn-groups button {
+    font-size: 12px;
+}
+.bg-color {
+    padding: 15px;
+    margin-top: -27px;
+    padding-left: 12px;
+    margin-left: -22px;
+}
+.contation-btns {
+    margin-top: -26px;
+}
+.contation-hide {
+    margin-top: 15px;
+    display: none;
+}
+.srm-panel {
+    border-color: #81AAFF;
+    width: 205px;
+}
+.srm-panel .panel-heading {
+    color: #777;
+    background-color: #E4EDF6;
+    border-color: #81AAFF;
+}
+.bgcolor-content {
+    padding: 0 16px;
+    margin-top: -5px;
+}
+.shownum {
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 2px;
+    position: relative;
+    margin-top: -2px;
+    padding-left: 4px;
+}
+.arrow-down {
+    margin-right: 2px;
+    font-size: 12px;
+    margin-top: 1px;
+}
+.showul {
+    border: 1px solid #ccc;
+    width: 39px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 4px;
+    top: 19px;
+    left: -1px;
+    z-index: 1000;
+    display: none;
+}
+.showul li {
+    cursor: pointer;
+    padding: 2px;
+    padding-left: 4px;
+}
+.showul li:hover {
+    background-color: #ccc;
+}
+.pagers {
+    position: relative;
+    top: 10px;
+}
+.gopage {
+    cursor: pointer;
+}
+.gopage:hover {
+    color: #EC2309;
+}
+.gopage span {
+    padding: 0 10px 0 2px;
+    position: relative;
+}
+#ext_grid {
+    margin-top: -5px;
+}
+/*ext grid 更改*/
+.x-panel-header {
+    width: 99.9% !important;
+}
+.x-grid-header-ct {
+    width: 99.9% !important;
+    border-color: #81AAFF;
+}
+.x-panel-body {
+    width: 99.9% !important;
+}
+.x-grid-table {
+    border-collapse: collapse;
+    margin-left: -1px;
+}
+.x-grid-header-ct,.x-column-header {
+    background-image: -webkit-linear-gradient(top,#f9f9f9,#C5DFF4);
+}
+.x-column-header {
+    border-right: 1px solid #81AAFF;
+}
+.srm-thtd {
+    font-weight: bold;
+    height: 27px;
+    text-align: center;
+}
+.x-panel-header {
+    width: 99.9% !important;
+}
+.x-grid-header-ct {
+    width: 99.9% !important;
+    background-image: -webkit-linear-gradient(top,#f9f9f9,#C5DFF4);
+}
+.x-panel-body {
+    width: 99.9% !important;
+}
+.x-box-inner {
+    margin-left: 1px;
+}
+.x-panel .x-grid-body {
+    border-color: #81AAFF;
+    margin-top: -1px;
+}
+.srm-thtd .x-column-header-inner {
+    height: 27px;
+    line-height: 27px;
+}
+.srm-trtd {
+    height: 27px;
+    color: #302F2F !important;
+    border:1px solid #81AAFF !important;
+}
+.srm-trtd .x-grid-cell-inner {
+    text-align: center !important;
+    line-height: 27px !important;
+}
+.x-column-header-trigger {
+    display: block;
+    background-color: transparent;right: 2px;
+    background-image: url('../images/extjs/grid/grid3-hd-btn.png');
+}
+#regTip {
+    color : #E21E1E;
+    font-size :12px;
+    float :left;
+    padding-bottom:10px;
+}
+#regTip a {
+    color : #337ab7;
+    font-size :14px;
+}
+
+/*管理员界面*/
+
+.parents-tabs {
+    position: relative;
+}
+.child-tabs {
+   position: absolute;
+    border: 1px solid #ccc;
+    width: 1004px;
+    top: 80px;
+    left: 50%;
+    margin-left: -502px;
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+}
+.show-childtabs {
+    display: block;
+}
+.child-tabs td,#Purchase td {
+    padding: 5px !important;
+}
+#Purchase td {
+    text-align: left;
+    padding: 10px !important;
+}
+#num0 td {
+    padding-right: 25px !important;
+}
+#num0 .Complaint-table .firsttd, #num2 .Complaint-table .firsttd {
+    text-align: right;
+}
+
+#num0 .Complaint-table .firsttd {
+    width: 322px;
+}
+
+#num2 .Complaint-table .firsttd {
+    width: 367px;
+}
+.reda {
+    color: #F25858;
+}
+.useli {
+    position: relative;
+    width: 114px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1px; 
+}
+.useli>a {
+    height: 60px;
+    line-height: 30px !important;
+}
+.mange-li:hover {
+    background-color: #EFEFEF;
+    border: 1px solid #E5DEDE;
+    border-bottom: none;
+    padding-top: 0;
+}
+.mange-li:hover>ul {
+    display: block;
+} 
+.mange-ul {
+    position: absolute;
+    padding-left: 0;
+    width: 114px;
+    background-color: #EFEFEF;
+    border: 1px solid #E5DEDE;
+    border-top: none;
+    top: 59px;
+    left: -1px;
+    display: none;
+}
+.mange-ul li:hover {
+    background-color: #A6E7FF;
+}
+.mange-ul li a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.samenum ul {
+    padding-left: 0;
+}
+.samenum li {
+    font-size: 12px;
+    margin-top: 20px;
+}
+.samenum li span {
+    width: 103px;
+    text-align: right;
+    display: inline-block;
+    margin-left: -25px;
+    margin-right: 10px;
+}
+#Reply li span {
+    text-align: left;
+    margin-left: 10px;
+    width: 52px;
+}
+
+#Reply li .query-search {
+     margin-left: 0; 
+     width: inherit; 
+}
+.samenum li .query-search {
+    width: 13px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.samenum th,.samenum td {
+    text-align: center;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.over-long {
+    padding: 10px;
+    overflow-x: scroll;
+    width: 960px;
+    margin-bottom: 10px;
+}
+#num3 .over-long, #Reply .over-long,#num4 .over-long, #Reply_detail_option .over-long, #num5 .over-long,#Purchasing-lists .over-long, #num6 .over-long, #Supplier-help-lists .over-long {
+    overflow: auto;
+}
+.over-long table {
+    width: 1500px;
+    max-width: inherit;
+}
+
+#Regstitution .over-long table {
+    width: 1830px;
+}
+
+#num3 .over-long table, #Reply .over-long table, #num4 .over-long table, #num5 .over-long table, #Purchasing-lists .over-long table, #Purchasing-check .over-long,#num6 .over-long table, #Supplier-help-lists .over-long table {
+    width: 948px;
+}
+#num3 th:last-child {
+    width: 38%;
+}
+.buttons {
+    margin-right: 43px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+#num3 .buttons,#Reply .buttons{
+    margin-right: 115px;
+    margin-top: 65px;
+} 
+.see-td:hover {
+    color: blue;
+    cursor: pointer;
+}
+.samenum input[type='text'] {
+    width: 170px;
+}
+.samenum .syssinupdate {
+    width: 74px !important;
+}
+.samenum .duringdate {
+    width: 80px !important;
+    margin-right: 4px;
+}
+.duringdate:last-child {
+    margin-left: 5px;
+}
+#num4 .buttons {
+    margin-right: 100px;
+    margin-top: 18px;
+} 
+#Complaint,#Reply {
+    top: 33%;
+}
+#Reply_detail_option td {
+    padding: 10px;
+}
+#Reply_detail_option td {
+    padding: 10px;
+}
+#Reply_detail_option td:first-child {
+    width: 20%;
+    text-align: right;
+}
+#Reply_detail_option .addul, #replyComplain, #Reply_detail_option .adduldate {
+    text-align: left;
+}
+#replyComplain .pauseanswer, #Reply_detail_option .addul .pauseanswer  {
+    top: 0;
+}
+#Reply_detail_option .over-long table {
+    width: 746px;
+}
+#Reply_detail_option .con_againdate {
+    margin-top: 10px;
+}
+#Reply_detail .files {
+    padding-left: 0;
+}
+.over-long .see {
+    margin-right: 20px;
+}
+#num5 h4,#num6 h4 {
+    display: inline-block;
+} 
+#num5 .over-long table td, #num5 .over-long table th,#Purchasing-lists .over-long table td,#Purchasing-check .over-long table td, #Purchasing-lists .over-long table th,#Purchasing-check .over-long table th, #num6 .over-long table td, #num6 .over-long table th,#Supplier-help-lists .over-long table td, #Supplier-help-lists .over-long table th {
+    text-align: center;
+    width: 20%;
+}
+#Purchasing table tr td,#Purchasing-check table tr td,#newPurchasing table tr td, #Supplier-help table tr td,#newSupplier-help table tr td {
+    width: 15%;
+    text-align: left;
+}
+#Supplier-help table tr td.longtd ,#Purchasing-check table tr td.longtd{
+    width : 85%;
+}
+#Purchasing table tr textarea,#Purchasing-check table tr textarea,#newPurchasing table tr textarea, #Supplier-help table tr textarea,#newSupplier-help table tr textarea {
+    width: 800px;
+    height: 400px;
+    max-width: 800px;
+    max-height: inherit;
+    vertical-align: top;
+    line-height: 2;
+}
+
+.validate {
+   position: fixed;
+    top: 20%;
+    left: 50%;
+    width: 370px;
+    height: 100px;
+    background-color: #f8f8f8;
+    z-index: 1035;
+    padding: 25px;
+    text-align: center;
+    margin-left: -185px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.validate button {
+    margin-top: 10px;
+}
+
+span.error {
+    color: #FA3D05 !important;
+    position: relative !important;
+    top: 3px !important;
+    left: 0px !important;
+    font-weight: normal !important;
+}
+
+.relativeparent {
+    position: relative;
+}
+
+.repeatname {
+    position: absolute;
+    right: 0;
+    background-color: #F42211;
+    padding: 2px;
+    color: #fff;
+}
+
+#Regstitution .filedisplay a {
+    display: block;
+    color: #337ab7;
+    margin-bottom: 5px;
+}
+.appendqueryfirst {
+    display: none;
+    margin-top: 5px;
+}
+.appendqueryfirst textarea {
+    width: 100%;
+}
+.appendquery textarea {
+    width: 100%;
+    margin-top: 5px;
+}
+.requrycontent {
+    display: inline-block;
+    max-width: 530px;
+    overflow: hidden;
+    word-wrap: break-word;
+    vertical-align: middle;
+}
+/*register*/
+.register-navbar {
+    box-shadow: 0px 2px 3px #8E8B7E;
+}
+.register, .register input, .register select {
+    font-size: 13px;
+}
+.register-nav {
+    padding: 0 25px;
+}
+.register-content {
+    margin: 75px auto;
+    margin-bottom: 20px;
+}
+.register-content h4 {
+    margin-left: 25px;
+}
+.register-panel {
+    width: 96.4%;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+.register-panel .panel-heading {
+    background-color: #2E90E4;
+    border-color: #3192D7;
+    font-weight: bold;
+}
+.register-panel .addUsertable td {
+    border: 1px solid #ddd !important;
+    text-align: center;
+}
+.register-panel .addUsertable td input {
+    border: none;
+    text-align: center;
+    background-color: inherit;
+}
+.register-panel table td span {
+    margin-right: 10px;
+}
+.addUsertable .unit {
+    margin-left: 10px;
+    font-weight: normal;
+}
+.checkbox-group {
+    display: inline-block;
+    width: 87.6%;
+    vertical-align: middle;
+}
+.checkbox input[type='checkbox'] {
+    margin-top: 2px;
+}
+.checkbox-group .checkbox {
+    display:inline-block;
+    margin-right: 10px;
+    width: 125px;
+}
+.register-details {
+    padding:5px 0;
+    display: inline-block;
+}
+.register-nature {
+    width: 100%;
+}
+.register-cooper, .turnover {
+    display: inline-block;
+    vertical-align:middle;
+}
+.register-cooper-title {
+    margin-bottom: 10px;
+}
+.register-cooper-title input[type='text'], .register-cooper-range input[type='text'] {
+    width: 288px !important;
+    padding: 8px;
+}
+.turnover input[type='text'] {
+    width: 70px !important;
+}
+.register-details .company-input {
+    width: 480px !important;
+    padding: 8px;
+}
+.register-details .mater-input {
+    width: 400px !important;
+    padding: 8px;
+}
+.register-details .factory-title span,.register-factory .factory-mater span {
+    display: inline-block;
+    width: 132px;
+    text-align: right;
+    margin-right: 5px;
+}
+.register-factory, .register-cooper-content, .register-comapny ul li {
+    padding: 12px 0;
+    border-bottom: 1px dotted #ccc;
+}
+.register-cooper-content, .register-factory {
+    width: 100%;
+}
+.register-factory .factory-title {
+    margin-right: 30px;
+}
+.register-factory .factory-mater span {
+    width: 170px;
+}
+.register-title {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 5px;
+}
+.material-title {
+    position: relative;
+    top: -30px;
+}
+.register-title span {
+    margin-right: 2px;
+}
+.register-title i {
+    vertical-align: middle;
+}
+.register-panel textarea {
+    height: 100px;
+    width: 100%;
+    max-width: 100%;
+}
+.register-comapny li .register-details:first-child {
+    margin-right: 144px;
+}
+.register-comapny .year-li .register-details:first-child {
+    margin-right:450px;
+}
+.register-comapny li .currency, .register-comapny li .register-date {
+    margin-left: 90px;
+}
+.register-comapny li .representative {
+    margin-left: 66px;
+}
+.register-comapny li .area, .register-comapny li .representative {
+    position: relative;
+    top: -8px;
+}
+.register-comapny li .Billing, .register-comapny li .Property {
+    margin-left: 93px;
+}
+.register-comapny input[type='text'] {
+    width: 210px;
+}
+.register-comapny .register-captial {
+    width: 80px !important;
+}
+.rigister-rank-left {
+    margin-left: 10px;
+}
+.register-comapny li .register-web {
+    margin-left: -74px;
+}
+.employees-num input[type="text"], .rate input[type="text"], .area input[type="text"], .register-date input[type="text"], .representative input[type="text"] {
+    width: 128px;
+}
+.register-comapny ul {
+    padding: 0;
+}
+.register-comapny ul li {
+    padding: 5px 0;
+}
+.year-li .register-details:first-child {
+    margin-right: 400px;
+}
+.year-li input[type="text"] {
+    width: 76px;
+}
+.register-manger .checkbox  {
+    margin-right: 10px;
+    width: initial;
+}
+.register-panel input[type='radio'] {
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-top: -3px;
+}
+.register-company-title {
+    width: 132px;
+}
+.register-details .ratio {
+    margin-right: 30px;
+}
+.register-details .ratio input[type="text"] {
+    width: 80px;
+}
+.rigister-rank {
+    margin-right: 100px;
+}
+.rigister-rank label {
+    margin-right: 15px;
+    display: inline;
+}
+.register-company-com {
+    width: 400px;
+}
+.changevalue {
+    margin-bottom: 40px;
+}
+.button-group {
+    padding-bottom: 30px;
+    position: relative;
+    top: 20px;
+}
+.register-address {
+    border: 1px solid #ccc;
+    padding: 18px;
+    padding-left: 0;
+    margin-left: 108px;
+    margin-top: -1px;
+    border-radius: 4px;
+    width: 368px;
+    padding-bottom: 35px;
+    display:none;
+}
+.sureAddress {
+    display: none;
+    vertical-align: middle;
+}
+.sureAddress .register-title {
+    width: initial;
+    margin-left: 10px;
+    line-height: 0;
+    margin-top: 20px;
+}
+.sureAddress .span-first {
+    margin-right: 2px;
+}
+.surebtn {
+    margin-right: 25px;
+}
+.register-comapny-name {
+    float: left;
+    margin-right: 40px;
+}
+.register-comapny-name2 {
+    margin-right: 0;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+.addAdress {
+    cursor: pointer;
+}
+.addAdress span {
+    margin-right: 3px;
+}
+.register-address li {
+    border-bottom: none !important;
+}
+.register-address .resetbtn {
+    margin-right: 10px;
+}
+.addressnew {
+    display: block;
+}
+.panel-body table {
+    margin-bottom: 0;
+}
+.register-search {
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 8px;
+}
+.register-search button {
+    padding: 4px 8px;
+    margin-top: -2px;
+}
+.hidepanel {
+    display: none;
+}
+.last-child-td label {
+    margin-right: 5px;
+    font-weight: normal;
+}
+.select-radio {
+    margin-right: 2px !important;
+    position: relative;
+    top: 2px;
+}
+.providesignup-modal {
+    padding-left:0 !important;
+}
+.pagination li .totalpagenum {
+    width: 45px !important;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+    display: inline;
+    position: relative;
+    top: 1px;
+}
+.complaindetail{
+    margin-left: -400px !important;
+}
+.modalvisble input[type='text'] {
+    width: 186px;
+}
+a.remove {
+    color : #ff0000;
+}
+.annunceheight {
+    max-height: 350px;
+    overflow-y: auto;
+    line-height: 2;
+    min-height: 250px;
+}
+#annnunec_content p, #Purchasing-check p, #Supplier-help p {
+    line-height: 2;
+}
+.modalbody-title .modalbody-titleleft {
+    margin-right: 15px;
+}
+/*bootstrap datetimepicker 修改*/
+[class*=" datetimepicker-dropdown"]:before {
+    content: none !important;
+}
+[class*=" datetimepicker-dropdown"]:after {
+    content: none !important;
+}
+.querydetail .lasttd {
+    text-align: left;
+    width: 135px;
+    padding-left: 10px !important;
+}
+/*上传插件样式修改*/
+object {
+    left: -1px;
+}
+.uploadify {
+    border-bottom: none !important;
+    position: relative;
+    margin-bottom: 1em;
+}
+.uploadify-button {
+    width: 100px !important;
+    background-color: #0DAEA2;
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    color: #FFF;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.uploadify:hover .uploadify-button {
+    background-color: #3CC7BC;
+    background-position: center bottom;
+}
+.uploadify-button.disabled {
+    background-color: #D0D0D0;
+    color: #808080;
+}
+.uploadify-queue {
+    margin-bottom: 1em;
+}
+.uploadify-queue-item {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font: 11px Verdana, Geneva, sans-serif;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: left;
+}
+.uploadify-error {
+    background-color: #FDE5DD !important;
+}
+.uploadify-queue-item .cancel a {
+    background: url('../images/uploadify-cancel.png') 0 0 no-repeat;
+    float: right;
+    height:	16px;
+    text-indent: -9999px;
+    width: 16px;
+}
+.uploadify-queue-item.completed {
+    background-color: #E5E5E5;
+}
+.uploadify-progress {
+    background-color: #E5E5E5;
+    margin-top: 10px;
+    width: 100%;
+}
+.uploadify-progress-bar {
+    background-color: #33c144;
+    height: 3px;
+    width: 1px;
+}
+.submitfile {
+    display: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.addClassfile .modal-footer {
+    border-top: none;
+    padding-top: 0;
+}
+.bottomnews h6 {
+    width: 296px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.bottoms-content {
+    height: 205px;
+    overflow: hidden;
+}
+.bottoms-content p {
+    text-indent: 1em;
+    font-size: 13px;
+}
+#submittip {
+    display: none;
+    top: 180px !important;
+}
+#submittip .modal-content {
+    width: 600px;
+    margin-left: -150px;
+}
+#submittip .modal-body {
+    padding: 10px;
+}
+#submittip .modal-footer {
+    padding: 4px 10px;
+}
+#submittip .successtip {
+    text-align: center;
+    text-indent: 0;
+    font-size: 17px;
+}
+@media (max-width:1200px) {
+    .footer {
+        width: 98%;
+    }
+    .chatimg img {
+        margin-left: 203px;
+        margin-top: -142px;
+    }
+    .header-left {
+        width: 30%;
+    }
+    .logined-nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        z-index: 10;
+        border: 1px solid #D5D0D0;
+        width: 100%;
+        margin-left: -15px;
+        height: 72px;
+        background-color: #F8F8F8;
+    }
+    .logined-nav ul {
+        margin-left: -198px;
+        padding-top: 7px;
+    }
+    .logined-nav-header, .logined-header-right {
+        top: 0px;
+    }
+    .showbars {
+        display: block;
+    }
+    .welcome {
+        margin-right: -30px;
+    }
+    .login-ch-ul {
+        left: 197px;
+    }
+    .register-nav {
+        padding: 0 2%;
+    }
+    .register-panel table td input {
+        width: 130px;
+        background-color: inherit;
+    }
+    .register-panel table td span {
+        margin-right: 2px;
+    }
+    .checkbox-group .checkbox {
+        width: 150px;
+    }
+    .register-factory .factory-title {
+        margin-right : -20px;
+    }
+    .register-details .company-input {
+        width: 290px !important;
+    }
+    .register-factory .factory-mater span {
+        width: 150px;
+    }
+    .register-details .mater-input {
+        width: 310px !important;
+    }
+    .rigister-rank {
+        margin-right: 20px !important; 
+    }
+    .year-li .register-details:first-child {
+        margin-right: 322px !important;
+    }
+    .register-details .ratio {
+        margin-right: 8px !important;
+    }
+    .register-comapny li .Proportion:first-child {
+        margin-right: 0;
+    }
+    .register-comapny li .addressnew:first-child {
+        margin-right: -2px;
+    }
+    .register-comapny li .register-nature {
+        margin-left: 0;
+    }
+    .register-nature {
+        width: 100%;
+    }
+    .register-comapny li .register-details:first-child {
+        margin-right: 45px;
+    }
+    .register-comapny li .currency, .register-comapny li .register-date {
+        margin-left: 0px;
+    }
+    .register-comapny li .representative {
+        margin-left: -28px;
+    }
+    .register-comapny li .Billing, .register-comapny li .Property {
+        margin-left: 0;
+    }
+    .register-comapny-name2 {
+        margin-left: 65px;
+    }
+    .register-manger .changecheckbox {
+        width: initial;
+        margin-right: 10px;
+    }
+    .sureAddress {
+        width: 690px;
+    }
+    /*管理员界面*/
+    .ad-container .header-left {
+        width: 25%;
+        margin-left: -32px;
+    }
+    .ad-container .navbar-right {
+        margin-right: -39px;
+    }
+}
+
+@media (max-width:992px) {
+    .navbar-header {
+        width: 300px;
+    }
+}
+
+@media (max-width:769px) {
+    .navbar-header {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .byd-header .navbar-collapse {
+        width: 100% !important;
+        margin-top: -4px;
+        height: auto;
+    }
+    .byd-header .navbar-right {
+        height: auto; 
+    }
+    .nav>li {
+        z-index: 3;
+    }
+    .header-right li a {
+        padding: 10px 15px;
+    }
+    .banner-slide .carousel-inner .item img {
+        width: 1280px;
+    }
+    .bottomnews {
+        display: none;
+    }
+    .provide-modal .modal-content {
+        width: 450px;
+    }
+    .showmodal {
+        width: 98%;
+        margin-left: -49.8%;
+    }
+    .provide-modal .modal-content {
+        width: 100%;
+    }
+    #complaintForm .compaintmodal2,#Purchasing {
+        margin-left : -49.8% !important;
+    }
+    .login-modal .modal-dialog {
+        margin-top: -160px;
+    }
+    .provide-modal .modal-dialog {
+        width: 98%;
+    }
+    .singup-modal {
+        left: 39.5%;
+    }
+    #Supplier-help-lists {
+        margin-left: -87.8%;
+    }
+    #announcement .singup-modal {
+        left: 45.5%;
+    }
+    #Supplier-help {
+        margin-left: -87.8%;
+    }
+}
+
+@media (max-width:650px) {
+    .banner-slide .carousel-inner .item img {
+        width: 1150px;
+    }
+}
+
+@media (max-width:581px) {
+    .banner-slide .carousel-inner .item img {
+        width: 100%;
+    }
+}
